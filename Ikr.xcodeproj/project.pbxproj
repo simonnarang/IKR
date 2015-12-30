@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					138A83731B8F95D3009AAE88 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = RNPQ279435;
 					};
 					138A83871B8F95D3009AAE88 = {
 						CreatedOnToolsVersion = 7.0;
@@ -398,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ikr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ikr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ikr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ikr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +488,7 @@
 				138A839E1B8F95D3009AAE88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138A839F1B8F95D3009AAE88 /* Build configuration list for PBXNativeTarget "IkrTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				138A83A11B8F95D3009AAE88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138A83A21B8F95D3009AAE88 /* Build configuration list for PBXNativeTarget "IkrUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +506,7 @@
 				138A83A41B8F95D3009AAE88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
